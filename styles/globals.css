@@ -23,6 +23,8 @@ html, body {
   p,
   ul {
     margin: 0;
+    font-family: "rucksack", sans-serif;
+    
   }
   
   ul {
