@@ -25,10 +25,15 @@ export default function WeekOne() {
           </div>
         </div>
         <div className={styles.subcard1}>
-            <p>This week I developed a website using React!</p>
+            <p>This week I developed a website using React! Here's a picture of some of the code running the page that you're seeing right now :)</p>
+            <img style={{ width: '50%', height: '50%' }} src="/website_image.png" alt="Website Image" />
         </div>
         <div className={styles.subcard2}>
-            <p>I have a few ideas for final projects!</p>
+            <p>Here are my top three ideas for a final project (in order of priority). </p>
+            <p> One idea I have is developing a "smart" pill case. My grandmother has to take a lot of medication, three times a day, and she has trouble remembering to take it. My vision for this product is a pill case with a sensor at the bottom that would send a reminder text if the medication hasn't been taken out. My design vision is similar to a mancala board but with three slots instead of two (for Morning, Afternoon, and Evening) </p>
+            <img style={{ width: '30%', height: '30%' }} src="/mancala.png" alt="Website Image" />
+            <img style={{ width: '30%', height: '30%' }} src="/pill_organizer.jpg" alt="Website Image" />
+
         </div>
       </div>
       <style jsx>{`

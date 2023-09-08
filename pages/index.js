@@ -24,15 +24,15 @@ export default function Home() {
             <h3>Introduction & Documentation&rarr;</h3>
             <p>Week one</p>
           </a>
-          <a href="https://nextjs.org/learn" className={styles.card}>
+          <a href="/week_two" className={styles.card}> 
             <h3>2D Design & <br></br>Cutting&rarr;</h3>
             <p>Week two</p>
           </a>
-          <a href="https://github.com/vercel/next.js/tree/master/examples" className={styles.card}>
+          <a href="/week_three" className={styles.card}>
             <h3>Hand tools and fabrication&rarr;</h3>
             <p>Week three</p>
           </a>
-          <a href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app" className={styles.card}>
+          <a href="/week_four" className={styles.card}>
             <h3>Microcontroller Programming&rarr;</h3>
             <p>Week four</p>
           </a>
