@@ -16,7 +16,7 @@ export default function Home() {
             </svg>
             <div style={{ marginTop: '-160px' }}>
                 <a href="/">
-                    <img src="/Lindenphysics70-logo-bunny.png" alt="Logo" style={{ marginLeft: '20px', marginTop: '10px' }} />
+                    <img src="PS70/Lindenphysics70-logo-bunny.png" alt="Logo" style={{ marginLeft: '20px', marginTop: '10px' }} />
                 </a>
             </div>
             <div style={{ marginLeft: '60px', marginTop: '-30px' }}>

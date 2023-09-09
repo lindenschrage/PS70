@@ -1,8 +1,12 @@
 {
+  "/about": "pages/about.html",
+  "/": "pages/index.html",
+  "/week_four": "pages/week_four.html",
+  "/week_one": "pages/week_one.html",
+  "/week_three": "pages/week_three.html",
+  "/week_two": "pages/week_two.html",
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/about": "pages/about.js",
-  "/week_one": "pages/week_one.js",
-  "/": "pages/index.js"
+  "/404": "pages/404.html"
 }

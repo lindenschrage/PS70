@@ -25,7 +25,7 @@ export default function WeekOne() {
           </div>
         </div>
         <div className={styles.subcard1}>
-            <p> Hey! I'm a senior in Mather studying math. I'm originally from San Francisco (and Cambridge winters make me qustion why I ever left). At home, I have two dogs who I miss when I'm at school! When I'm not PSeting in Smith, I can be found baking, crafting, or walking by the Charles.  </p>
+            <p> Hey! I'm a senior in Mather studying math. I'm originally from San Francisco and these Cambridge winters have made me qustion why I ever left. At home, I have two dogs who I miss when I'm at school! When I'm not PSeting in Smith, I can be found baking, crafting, or walking by the Charles.  </p>
             <img style={{ width: '20%', height: '20%' }} src="/me.png" alt="Website Image" />
             <img style={{ width: '20%', height: '20%' }} src="/moose.JPEG" alt="Website Image" />
             <img style={{ width: '26.6%', height: '26.6%' }} src="/cake.png" alt="Website Image" />
