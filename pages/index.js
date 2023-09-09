@@ -15,7 +15,7 @@ export default function Home() {
                 <path fill="none" stroke="#b502f4" stroke-width="15" d="M0,64L80,58.7C160,53,320,43,480,74.7C640,107,800,181,960,181.3C1120,181,1280,107,1360,64L1440,21"></path>
             </svg>
             <div style={{ marginTop: '-160px' }}>
-                <a href="/">
+                <a href="/PS70">
                     <img src="/PS70/Lindenphysics70-logo-bunny.png" alt="Logo" style={{ marginLeft: '20px', marginTop: '10px' }} />
                 </a>
             </div>

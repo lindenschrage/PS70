@@ -15,7 +15,7 @@ export default function WeekOne() {
                 <path fill="none" stroke="#b502f4" stroke-width="15" d="M0,64L80,58.7C160,53,320,43,480,74.7C640,107,800,181,960,181.3C1120,181,1280,107,1360,64L1440,21"></path>
             </svg>
             <div style={{ marginTop: '-160px' }}>
-                <a href="/">
+                <a href="/PS70">
                     <img src="/Lindenphysics70-logo-bunny.png" alt="Logo" style={{ marginLeft: '20px', marginTop: '10px' }} />
                 </a>
             </div>
@@ -32,9 +32,9 @@ export default function WeekOne() {
             <p>Here are my top three ideas for a final project (in order of priority). </p>
             <p >The first  concept I'm exploring is the creation of a "smart" pill organizer. Given that my grandmother is on multiple medications and needs to take them three times a day, she often struggles to recall her dosages. I envision this product as a pill organizer with sensors at the base of each compartment. If medication isn't retrieved, it would trigger a reminder text. The design would resemble a mancala board, but modified to feature three compartments to signify Morning, Afternoon, and Evening doses.</p>
             <p>
-              <img style={{ width: '15%', height: '15%' }} src="/mancala.png" alt="Website Image" />
-              <img style={{ width: '20%', height: '20%' }} src="/pill_organizer.jpg" alt="Website Image" />
-              <img style={{ width: '25%', height: '25%' }} src="/wooden_pill.png" alt="Website Image" />
+              <img style={{ width: '15%', height: '15%' }} src="/PS70/mancala.png" alt="Website Image" />
+              <img style={{ width: '20%', height: '20%' }} src="/PS70/pill_organizer.jpg" alt="Website Image" />
+              <img style={{ width: '25%', height: '25%' }} src="/PS70/wooden_pill.png" alt="Website Image" />
             </p>
 
             <p>My next proposal is to develop an automated plant care system tailored for dormitory settings. Given my own brown thumb, this automated setup would guarantee consistent care by ensuring the plants receive appropriate amounts of water and light. The design could incorporate a 3D-printed pot equipped with integrated moisture sensors.</p>
