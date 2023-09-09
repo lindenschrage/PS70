@@ -30,9 +30,17 @@ export default function WeekOne() {
         </div>
         <div className={styles.subcard2}>
             <p>Here are my top three ideas for a final project (in order of priority). </p>
-            <p> One idea I have is developing a "smart" pill case. My grandmother has to take a lot of medication, three times a day, and she has trouble remembering to take it. My vision for this product is a pill case with a sensor at the bottom that would send a reminder text if the medication hasn't been taken out. My design vision is similar to a mancala board but with three slots instead of two (for Morning, Afternoon, and Evening) </p>
-            <img style={{ width: '30%', height: '30%' }} src="/mancala.png" alt="Website Image" />
-            <img style={{ width: '30%', height: '30%' }} src="/pill_organizer.jpg" alt="Website Image" />
+            <p >The first  concept I'm exploring is the creation of a "smart" pill organizer. Given that my grandmother is on multiple medications and needs to take them three times a day, she often struggles to recall her dosages. I envision this product as a pill organizer with sensors at the base of each compartment. If medication isn't retrieved, it would trigger a reminder text. The design would resemble a mancala board, but modified to feature three compartments to signify Morning, Afternoon, and Evening doses.</p>
+            <p>
+              <img style={{ width: '15%', height: '15%' }} src="/mancala.png" alt="Website Image" />
+              <img style={{ width: '20%', height: '20%' }} src="/pill_organizer.jpg" alt="Website Image" />
+              <img style={{ width: '25%', height: '25%' }} src="/wooden_pill.png" alt="Website Image" />
+            </p>
+
+            <p>My next proposal is to develop an automated plant care system tailored for dormitory settings. Given my own brown thumb, this automated setup would guarantee consistent care by ensuring the plants receive appropriate amounts of water and light. The design could incorporate a 3D-printed pot equipped with integrated moisture sensors.</p>
+            <p>My last idea would be combine the elegance of traditional analog watches with the functionality of modern step counters to craft an analog-style pedometer watch. This device would count and display the wearer's steps with a classic hand (like an hour or minute hand on a watch) while retaining the aesthetic appeal of traditional watched.</p>
+
+            
 
         </div>
       </div>

@@ -96,6 +96,12 @@
     font-size: 0.75rem;
   }
 
+  .subcard1 p {
+    font-size: 1rem;
+    line-height: 2.2;
+
+  }
+
   .subcard2 {
     margin: 1rem;
     margin-top: 0px;
@@ -112,6 +118,11 @@
     font-weight: 100;
     font-style: normal;
     font-size: 0.75rem;
+  }
+
+  .subcard2 p {
+    font-size: 1rem;
+    line-height: 2.2;
   }
   
   .card:hover,
@@ -135,6 +146,33 @@
   .logo {
     height: 1em;
   }
+
+  .button1 {
+    text-align: left;
+    color: #b502f4;
+    text-decoration: none;
+    border-radius: 10px;
+    font-family: "rucksack", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.25rem;
+    
+  }
+
+  .subtitle1 {
+    margin: 0rem;
+    margin-top: -80px;
+    padding: 1.5rem;
+    text-align: left;
+    color: #b502f4;
+    text-decoration: none;
+    font-family: "rucksack", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2rem;
+
+  }
+
 
 
   

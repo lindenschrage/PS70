@@ -19,13 +19,18 @@ export default function Home() {
                     <img src="/Lindenphysics70-logo-bunny.png" alt="Logo" style={{ marginLeft: '20px', marginTop: '10px' }} />
                 </a>
             </div>
+            <div style={{ marginLeft: '60px', marginTop: '-30px' }}>
+              <a href="/about" className={styles.button1}>
+                <h3>About Me!</h3>
+              </a>
+            </div>
         <div className={styles.grid} style={{ marginTop: '20px' }}>
           <a href="/week_one" className={styles.card}>
             <h3>Introduction & Documentation&rarr;</h3>
             <p>Week one</p>
           </a>
           <a href="/week_two" className={styles.card}> 
-            <h3>2D Design & <br></br>Cutting&rarr;</h3>
+            <h3>2D Design & Cutting&rarr;</h3>
             <p>Week two</p>
           </a>
           <a href="/week_three" className={styles.card}>
