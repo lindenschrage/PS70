@@ -26,7 +26,7 @@ export default function WeekOne() {
         </div>
         <div className={styles.subcard1}>
             <p>This week I developed a website using React! Here's a picture of some of the code running the page that you're seeing right now :)</p>
-            <img style={{ width: '50%', height: '50%' }} src="/website_image.png" alt="Website Image" />
+            <img style={{ width: '50%', height: '50%' }} src="/PS70/website_image.png" alt="Website Image" />
         </div>
         <div className={styles.subcard2}>
             <p>Here are my top three ideas for a final project (in order of priority). </p>
