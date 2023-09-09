@@ -25,7 +25,7 @@ export default function WeekOne() {
           </div>
         </div>
         <div className={styles.subcard1}>
-            <p>This week I developed a website using React! Here's a picture of some of the code running the page that you're seeing right now :)</p>
+            <p>This week I developed a website using React and NextJS! I've never made a website before so it wasa bit daunting but I'm really pleased with how it turned out. The highlight was designing the Linden Physics 70 Logo in Adobe Illustrator. The biggest challenge was publishing the website to github pages, because it reuiqres a different workflow than an html-based webpage. But, I finally got it after a lot of trial and error! Here's a picture of some of the code running the page that you're seeing right now :)</p>
             <img style={{ width: '50%', height: '50%' }} src="/PS70/website_image.png" alt="Website Image" />
         </div>
         <div className={styles.subcard2}>
