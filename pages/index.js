@@ -25,7 +25,7 @@ export default function Home() {
               </a>
             </div>
         <div className={styles.grid} style={{ marginTop: '20px' }}>
-          <a href="/week_one" className={styles.card}>
+          <a href="/PS70/week_one" className={styles.card}>
             <h3>Introduction & Documentation&rarr;</h3>
             <p>Week one</p>
           </a>
