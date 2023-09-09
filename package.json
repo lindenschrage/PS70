@@ -1,7 +1,5 @@
-
 {
   "homepage": "https://lindenschrage.github.io/PS70",
-
   "dependencies": {
     "next": "^13.4.19",
     "react": "^18.2.0",
