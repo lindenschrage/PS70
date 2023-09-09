@@ -29,15 +29,15 @@ export default function Home() {
             <h3>Introduction & Documentation&rarr;</h3>
             <p>Week one</p>
           </a>
-          <a href="/week_two" className={styles.card}> 
+          <a href="/PS70/week_two" className={styles.card}> 
             <h3>2D Design & Cutting&rarr;</h3>
             <p>Week two</p>
           </a>
-          <a href="/week_three" className={styles.card}>
+          <a href="/PS70/week_three" className={styles.card}>
             <h3>Hand tools and fabrication&rarr;</h3>
             <p>Week three</p>
           </a>
-          <a href="/week_four" className={styles.card}>
+          <a href="/PS70/week_four" className={styles.card}>
             <h3>Microcontroller Programming&rarr;</h3>
             <p>Week four</p>
           </a>
