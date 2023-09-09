@@ -20,7 +20,7 @@ export default function Home() {
                 </a>
             </div>
             <div style={{ marginLeft: '60px', marginTop: '-30px' }}>
-              <a href="/about" className={styles.button1}>
+              <a href="/PS70/about" className={styles.button1}>
                 <h3>About Me!</h3>
               </a>
             </div>
