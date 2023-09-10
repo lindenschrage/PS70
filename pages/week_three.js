@@ -16,7 +16,7 @@ export default function WeekOne() {
             </svg>
             <div style={{ marginTop: '-160px' }}>
                 <a href="/PS70">
-                    <img src="PS70/Lindenphysics70-logo-bunny.png" alt="Logo" style={{ marginLeft: '20px', marginTop: '10px' }} />
+                    <img src="/PS70/Lindenphysics70-logo-bunny.png" alt="Logo" style={{ marginLeft: '20px', marginTop: '10px' }} />
                 </a>
             </div>
         <div className={styles.grid} style={{ marginTop: '20px' }}>
