@@ -31,8 +31,7 @@ export default function WeekOne() {
             <img style={{ width: '26.6%', height: '26.6%' }} src="/PS70/cake.png" alt="Website Image" />
             <img style={{ width: '20%', height: '20%' }} src="/PS70/table.png" alt="Website Image" />
         </div>
-        <div className={styles.subcard2}>
-        </div>    
+         
         
       </div>
       <style jsx>{`
