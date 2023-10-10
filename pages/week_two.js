@@ -56,12 +56,12 @@ export default function WeekOne() {
         </div>
         <div className={styles.subcard2}>
           <p>
-            Lastly, I crafted my own unique press-fit shapes! One of the reasons I appreciate working in Rhino is its simplicity in creating organic forms. For this segment of the assignment, I sketched my own base shape using the Curve command. After adding notches to my design, I proceeded to cut it out with the laser cutter. I'm really fond of the final design! It had a sense of fun and whimsy, which was precisely my intent. It also resembles a group of animals feeding, which I really enjoy!
+            I then crafted my own unique press-fit shapes! One of the reasons I appreciate working in Rhino is its simplicity in creating organic forms. For this segment of the assignment, I sketched my own base shape using the Curve command. After adding notches to my design, I proceeded to cut it out with the laser cutter. I'm really fond of the final design! It had a sense of fun and whimsy, which was precisely my intent. It also resembles a group of animals feeding, which I really enjoy!
           </p>    
           <img style={{ width: '50%', height: '50%' }} src="/PS70/shapes.png" alt="Website Image" />   
         </div>
         <div className={styles.subcard2}>
-          <p>TODO</p>
+          <p>Lastly, I was inspired by the topology class I'm taking to make a 3D press-fit surface. I followed a Grashopper/Rhino tutorial and really like how it turned out!</p>
           <img style={{ width: '50%', height: '50%' }} src="/PS70/topology.png" alt="Website Image" />   
         </div>
       </div>

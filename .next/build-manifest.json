@@ -22,15 +22,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/week_four": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/week_four.js"
+    ],
     "/week_three": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/week_three.js"
-    ],
-    "/week_two": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/week_two.js"
     ]
   },
   "ampFirstPages": []
