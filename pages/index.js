@@ -41,6 +41,16 @@ export default function Home() {
             <h3>Microcontroller Programming&rarr;</h3>
             <p>Week four</p>
           </a>
+          <a href="/PS70/week_five" className={styles.card}>
+            <h3>3D Design & Printing&rarr;</h3>
+            <p>Week five</p>
+          </a>
+          <a href="/PS70/week_six" className={styles.card}>
+            <h3>Electronic Input Devices&rarr;</h3>
+            <p>Week six</p>
+          </a>
+
+         
           
         </div>
       </div>

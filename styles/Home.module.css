@@ -101,6 +101,10 @@
     line-height: 2.2;
 
   }
+  .subcard1 ul {
+    font-size: 1rem;
+    line-height: 2.2;
+  }
 
   .subcard2 {
     margin: 1rem;
@@ -124,6 +128,11 @@
     font-size: 1rem;
     line-height: 2.2;
   }
+
+  .subcard2 ul {
+    font-size: 1rem;
+    line-height: 2.2;
+  }
   
   .card:hover,
   .card:focus,
@@ -138,6 +147,12 @@
   }
   
   .card p {
+    margin: 0;
+    font-size: 1.25rem;
+    line-height: 1.5;
+  }
+
+  .card ul {
     margin: 0;
     font-size: 1.25rem;
     line-height: 1.5;
