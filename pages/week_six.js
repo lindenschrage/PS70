@@ -31,22 +31,30 @@ export default function WeekOne() {
             <p>After many unsuccessful attempts to get the sensor to function as desired, Nathan and I delved deep into online resources. We discovered that the Hall Effect Sensor we were using was digital, not analog. This meant it couldn't differentiate between the presence of one magnet versus two; it would only output binary readings (either 0 or 1). Consequently, I removed the internal magnets and substituted them with non-magnetic conductive metal washers. It's crucial for the face of the Hall Effect Sensor to be perpendicular to the magnet. I positioned it against the box so that its face was just beneath the location where the top magnet would fall. 
             </p>     
             <p>This is what my final Hall Effect Sensor circuit looked like:</p>
+            <img style={{ width: '30%', height: '30%' }} src="/PS70/week6/hall_sensor_circuit.png" alt="Website Image" />
             <p>And here is the code that I used:
             </p>
             <img style={{ width: '30%', height: '30%' }} src="/PS70/week6/hall_effect_code.png" alt="Website Image" />
             <p>Following Nathan's advice, I measured the lid at various angles to determine the exact degree at which the sensor would detect the magnet. I found this angle to be 7.5 degrees.
             </p>
             <img style={{ width: '30%', height: '30%' }} src="/PS70/week6/hall_effect_pic.png" alt="Website Image" />
+            <p>Here is a video of the final working sensor!</p>
+            <video style={{ width: '30%', height: '30%' }} src="/PS70/week3/hall_sensor_vid.mov" controls> </video>
+
             <p>For my next iteration, I plan to experiment with an analog sensor to see if it's a better fit for my project!</p>
         </div>
         <div className={styles.subcard2}>
             <p>Subsequently, I developed a capacitive weight sensor using two copper sheets separated by a foam block. I placed an empty cup on this DIY sensor and recorded the Arduino serial value each time I added water in 20mL increments, up to a total of 230mL.</p>
+            <p>Here is what my set up looked like:</p>
+            <img style={{ width: '10%', height: '10%' }} src="/PS70/week6/cap_sen_pic.png" alt="Website Image" />
+            <p>Here is what my code and circuit looked like:</p>
+            <img style={{ width: '10%', height: '10%' }} src="/PS70/week6/cap_sensor_code.png" alt="Website Image" />
+            <img style={{ width: '10%', height: '10%' }} src="/PS70/week6/cap_sensor_circuit.png" alt="Website Image" />
+            <p>And here are the results that I got:</p>
             <img style={{ width: '10%', height: '10%' }} src="/PS70/week6/cap_sen_tab.png" alt="Website Image" />
             <img style={{ width: '30%', height: '30%' }} src="/PS70/week6/cap_sen_pic.png" alt="Website Image" />
         </div>
-        <div className={styles.subcard2}>
-            <p>TODO (ADD PICS ABOVE AND INFO ABOTU 3D MODEL)</p>
-        </div>
+      
       </div>
       <style jsx>{`
         html, body {
