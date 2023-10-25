@@ -39,17 +39,17 @@ export default function WeekOne() {
             </p>
             <img style={{ width: '30%', height: '30%' }} src="/PS70/week6/hall_effect_pic.png" alt="Website Image" />
             <p>Here is a video of the final working sensor!</p>
-            <video style={{ width: '30%', height: '30%' }} src="/PS70/week3/hall_sensor_vid.mov" controls> </video>
+            <video style={{ width: '30%', height: '30%' }} src="/PS70/week3/hall_sensor_vid.MOV" controls> </video>
 
             <p>For my next iteration, I plan to experiment with an analog sensor to see if it's a better fit for my project!</p>
         </div>
         <div className={styles.subcard2}>
             <p>Subsequently, I developed a capacitive weight sensor using two copper sheets separated by a foam block. I placed an empty cup on this DIY sensor and recorded the Arduino serial value each time I added water in 20mL increments, up to a total of 230mL.</p>
             <p>Here is what my set up looked like:</p>
-            <img style={{ width: '10%', height: '10%' }} src="/PS70/week6/cap_sen_pic.png" alt="Website Image" />
+            <img style={{ width: '30%', height: '30%' }} src="/PS70/week6/cap_sen_pic.png" alt="Website Image" />
             <p>Here is what my code and circuit looked like:</p>
-            <img style={{ width: '10%', height: '10%' }} src="/PS70/week6/cap_sensor_code.png" alt="Website Image" />
-            <img style={{ width: '10%', height: '10%' }} src="/PS70/week6/cap_sensor_circuit.png" alt="Website Image" />
+            <img style={{ width: '30%', height: '30%' }} src="/PS70/week6/cap_sensor_code.png" alt="Website Image" />
+            <img style={{ width: '30%', height: '30%' }} src="/PS70/week6/cap_sensor_circuit.png" alt="Website Image" />
             <p>And here are the results that I got:</p>
             <img style={{ width: '10%', height: '10%' }} src="/PS70/week6/cap_sen_tab.png" alt="Website Image" />
             <img style={{ width: '30%', height: '30%' }} src="/PS70/week6/cap_sen_pic.png" alt="Website Image" />
