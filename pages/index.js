@@ -49,9 +49,18 @@ export default function Home() {
             <h3>Electronic Input Devices&rarr;</h3>
             <p>Week six</p>
           </a>
-
-         
-          
+          <a href="/PS70/week_seven" className={styles.card}>
+            <h3>Electronic Output Devices&rarr;</h3>
+            <p>Week seven</p>
+          </a>
+          <a href="/PS70/week_eight" className={styles.card}>
+            <h3>CNC Milling&rarr;</h3>
+            <p>Week eight</p>
+          </a>
+          <a href="/PS70/week_nine" className={styles.card}>
+            <h3>Radio, Wifi, Bluetooth&rarr;</h3>
+            <p>Week nine</p>
+          </a>
         </div>
       </div>
       <style jsx>{`

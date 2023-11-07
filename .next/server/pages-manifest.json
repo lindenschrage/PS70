@@ -2,6 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/week_six": "pages/week_six.js",
+  "/week_eight": "pages/week_eight.js",
   "/": "pages/index.js"
 }
