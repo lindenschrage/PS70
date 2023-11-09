@@ -25,10 +25,27 @@ export default function WeekOne() {
           </div>
         </div>
         <div className={styles.subcard1}>
+        <p>
+          This week, Manas and I tackled the networking assignment by creating an LED display to indicate the day of the week. We started by designing a display that had seven distinct slots, each representing a different day. Our design included pass-through holes for each slot, which allowed us to run wiring to connect the electronics from underneath. After finalizing the prototype design, we proceeded to 3D print it.
+        </p>
+        <a download href='/PS70/week9/networking_assignment.gh'>Download the Grasshopper file </a>
+        <img style={{ width: '30%', height: '30%' }} src="/PS70/week9/networking_rhino.png" alt="Website Image" />
         </div>
         <div className={styles.subcard2}>
+          <p>
+          To ensure our display would show the correct day, we used an ESP32 board, which is a microcontroller with Wi-Fi capability. This board was programmed to retrieve the current day from an NTP server. An NTP server is a dedicated computer that uses the Network Time Protocol to provide devices with the precise time and date, ensuring our display would always be accurate.
+          </p>
+          <p>
+            Here is what our code looked like:
+          </p>
+          <img style={{ width: '30%', height: '30%' }} src="/PS70/week9/code1.png" alt="Website Image" />
+          <img style={{ width: '30%', height: '30%' }} src="/PS70/week9/code2.png" alt="Website Image" />
+          <a download href='/PS70/week9/NTP_website.png'>Download the Ardunio code file </a>
+
         </div>
-      
+        <div className={styles.subcard2}>
+        While the printing was underway, we focused on coding. We started by experimenting on a breadboard, connecting several LEDs to the ESP32 using resistors and tested our code. With the code working correctly, we moved on to constructing the final product. We soldered wires to the LEDs and carefully placed them into the designed slots of our display. After setting up the circuitry and initiating our code, the display came to life, with the green LED shining brightly to indicate that it was Thursday.
+        </div>
       </div>
       <style jsx>{`
         html, body {
