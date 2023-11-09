@@ -37,6 +37,9 @@ export default function WeekOne() {
           To ensure our display would show the correct day, we used an ESP32 board, which is a microcontroller with Wi-Fi capability. This board was programmed to retrieve the current day from an NTP server. An NTP server is a dedicated computer that uses the Network Time Protocol to provide devices with the precise time and date, ensuring our display would always be accurate.
           </p>
           <p>
+          Our code is designed to connect to a Wi-Fi network, synchronize time with an NTP server, and control a set of LEDs based on the day of the week. It defines a structure to associate GPIO pins with days of the week and initializes a Wi-Fi connection using specified credentials. Once connected, it retrieves the current time, disconnects from Wi-Fi to save power, and sets each pin to an output mode. In its main loop, the code continuously checks the current day and activates the corresponding LED for that day, turning on one LED each day of the week, while turning off all others. It has error handling for failure to obtain the time, and serial print statements for debugging and monitoring its status.
+          </p>
+          <p>
             Here is what our code looked like:
           </p>
           <img style={{ width: '30%', height: '30%' }} src="/PS70/week9/code1.png" alt="Website Image" />
