@@ -50,8 +50,10 @@ export default function WeekOne() {
         </div>
         <div className={styles.subcard2}>
           <p>
-          While the printing was underway, we focused on coding. We started by experimenting on a breadboard, connecting several LEDs to the ESP32 using resistors and tested our code. With the code working correctly, we moved on to constructing the final product. We soldered wires to the LEDs and carefully placed them into the designed slots of our display. After setting up the circuitry and initiating our code, the display came to life, with the green LED shining brightly to indicate that it was Thursday.
+            While the printing was underway, we focused on coding. We started by experimenting on a breadboard, connecting several LEDs to the ESP32 using resistors and tested our code. With the code working correctly, we moved on to constructing the final product. We soldered wires to the LEDs and carefully placed them into the designed slots of our display. After setting up the circuitry and initiating our code, the display came to life, with the green LED shining brightly to indicate that it was Thursday.
           </p>
+          <img style={{ width: '30%', height: '30%' }} src="/PS70/week9/final.jpeg" alt="Website Image" />
+
         </div>
       </div>
       <style jsx>{`
