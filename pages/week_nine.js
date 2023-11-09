@@ -28,8 +28,9 @@ export default function WeekOne() {
         <p>
           This week, Manas and I tackled the networking assignment by creating an LED display to indicate the day of the week. We started by designing a display that had seven distinct slots, each representing a different day. Our design included pass-through holes for each slot, which allowed us to run wiring to connect the electronics from underneath. After finalizing the prototype design, we proceeded to 3D print it.
         </p>
-        <a download href='/PS70/week9/networking_assignment.gh'>Download the Grasshopper file </a>
         <img style={{ width: '30%', height: '30%' }} src="/PS70/week9/networking_rhino.png" alt="Website Image" />
+        <br></br>
+        <a download href='/PS70/week9/networking_assignment.gh'>Download the Grasshopper file </a>
         </div>
         <div className={styles.subcard2}>
           <p>
@@ -40,6 +41,7 @@ export default function WeekOne() {
           </p>
           <img style={{ width: '30%', height: '30%' }} src="/PS70/week9/code1.png" alt="Website Image" />
           <img style={{ width: '30%', height: '30%' }} src="/PS70/week9/code2.png" alt="Website Image" />
+          <br></br>
           <a download href='/PS70/week9/NTP_website.png'>Download the Ardunio code file </a>
 
         </div>
