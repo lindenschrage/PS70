@@ -1,3 +1,15 @@
+
+.codeSnippet {
+  background-color: #f7f7f7;
+  border: 1px solid #e1e1e8;
+  border-radius: 4px;
+  padding: 15px;
+  font-family: 'Courier New', Courier, monospace;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
 .container {
     padding: 0 0.5rem;
     display: flex;

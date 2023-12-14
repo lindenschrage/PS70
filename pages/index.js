@@ -61,6 +61,14 @@ export default function Home() {
             <h3>Radio, Wifi, Bluetooth&rarr;</h3>
             <p>Week nine</p>
           </a>
+          <a href="/PS70/week_ten" className={styles.card}>
+            <h3>Machine Building&rarr;</h3>
+            <p>Week nine</p>
+          </a>
+          <a href="/PS70/final_project" className={styles.card}>
+            <h3>Final Project&rarr;</h3>
+            <p>Smart Pillbox</p>
+          </a>
         </div>
       </div>
       <style jsx>{`

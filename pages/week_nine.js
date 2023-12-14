@@ -45,7 +45,7 @@ export default function WeekOne() {
           <img style={{ width: '30%', height: '30%' }} src="/PS70/week9/code1.png" alt="Website Image" />
           <img style={{ width: '30%', height: '30%' }} src="/PS70/week9/code2.png" alt="Website Image" />
           <br></br>
-          <a download href='/PS70/week9/NTP_website.png'>Download the Ardunio code file </a>
+          <a download href='/PS70/week9/NTP_website.ino'>Download the Ardunio code file </a>
 
         </div>
         <div className={styles.subcard2}>

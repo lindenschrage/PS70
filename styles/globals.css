@@ -37,4 +37,13 @@ html, body {
     padding: 0.5rem 1rem;
     font-weight: bold;
   }
-  
+
+  pre {
+    background-color: #f7f7f7;
+    border: 1px solid #e1e1e8;
+    padding: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
