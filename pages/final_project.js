@@ -29,7 +29,7 @@ export default function WeekOne() {
         <div className={styles.subcard1}>
             <h1>Completed Project</h1>
             <p>	For my PS70 final project, I created The Smart Pillbox! This pillbox is designed to simplify your medication routine with smart reminders and day indicators. My demo model caters to two days, with plans to expand to a full week.</p>
-            <p><img src="/final_project/final_ps70_gif.gif"></img></p>
+            <p><img src="/PS70/final_project/final_ps70_gif.gif"></img></p>
             <p>Click below to watch my product demo video!</p>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/S3utQkl-kJ8?si=95PJ5SpDdKXjKzx8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
@@ -55,9 +55,9 @@ export default function WeekOne() {
             </div>
             <div className={styles.subcard2}>
             <h1>Hardware</h1>
-            <img style={{ width: '30%', height: '30%' }} src="/final_project/final_gh.png" alt="Website Image" />
-            <img style={{ width: '40%', height: '40%' }} src="/final_project/final_render.png" alt="Website Image" />
-            <img style={{ width: '30%', height: '30%' }} src="/final_project/circuitry.png" alt="Website Image" />
+            <img style={{ width: '30%', height: '30%' }} src="/PS70//final_project/final_gh.png" alt="Website Image" />
+            <img style={{ width: '40%', height: '40%' }} src="/PS70//final_project/final_render.png" alt="Website Image" />
+            <img style={{ width: '30%', height: '30%' }} src="/PS70//final_project/circuitry.png" alt="Website Image" />
 
             <br></br>
 
@@ -178,7 +178,7 @@ void controlDayLed() {
             </div>
       <div className={styles.subcard2}>
         <h1> Creation Timeline </h1>
-        <img style={{ width: '60%', height: '60%' }} src="/final_project/versions_final.png" alt="Website Image" />
+        <img style={{ width: '60%', height: '60%' }} src="/PS70/final_project/versions_final.png" alt="Website Image" />
         <p>My journey in developing the Smart Pillbox has been marked by continuous challenges and successes, with each iteration bringing me a little closer to the final product. Here's an overview into the evolutionary stages of my project:</p>
         <ul>
         <li><strong>Version 1:</strong> The inception began with a basic box featuring a spherical cutout and a hall effect sensor. The primary aim was to validate the functionality of the hall effect sensor.</li>
@@ -198,11 +198,11 @@ void controlDayLed() {
     <h3>Circuitry</h3>
     <p>At the beginning of this project, I attempted to work on the physical box construction and the circuitry simultaneously. However, this approach made it challenging to debug the project when issues arose. To mitigate this, I decided to divide the project into two distinct phases: the physical components and the circuitry. This separation allowed me to focus on refining each aspect individually before integrating them into the final product.</p>
     <p>While progressing through the various physical prototypes, I concurrently embarked on designing the circuit, ensuring its functionality in isolation. This involved soldering all LEDs and hall effect sensors onto longer wires, facilitating their integration within the box. After extending these wires, I conducted thorough tests to confirm their operational integrity.</p>
-    <img style={{ width: '23%', height: '23%' }} src="/final_project/led_test.gif"></img>
-    <img style={{ width: '30%', height: '30%' }} src="/final_project/long_wires.png" alt="Website Image" />
+    <img style={{ width: '23%', height: '23%' }} src="/PS70/final_project/led_test.gif"></img>
+    <img style={{ width: '30%', height: '30%' }} src="/PS70/final_project/long_wires.png" alt="Website Image" />
     <p>The final step in the circuitry phase involved soldering the ESP32 and all remaining connections onto a solderable breadboard. This measure was taken to overcome the issue of connections becoming loose during movement, a critical consideration for the pillbox’s practical use. This careful soldering process was vital to guarantee the reliability and durability of the electronic components, a cornerstone in the development of the Smart Pillbox.</p>
-    <img style={{ width: '30%', height: '30%' }} src="/final_project/final_breadboard.png" alt="Website Image" />
-    <img style={{ width: '30%', height: '30%' }} src="/final_project/final_breadboard2.png" alt="Website Image" />
+    <img style={{ width: '30%', height: '30%' }} src="/PS70/final_project/final_breadboard.png" alt="Website Image" />
+    <img style={{ width: '30%', height: '30%' }} src="/PS70/final_project/final_breadboard2.png" alt="Website Image" />
 
     </div>
     <div className={styles.subcard2}>
