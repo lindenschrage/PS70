@@ -63,7 +63,7 @@ export default function Home() {
           </a>
           <a href="/PS70/week_ten" className={styles.card}>
             <h3>Machine Building&rarr;</h3>
-            <p>Week nine</p>
+            <p>Week ten</p>
           </a>
           <a href="/PS70/final_project" className={styles.card}>
             <h3>Final Project&rarr;</h3>
