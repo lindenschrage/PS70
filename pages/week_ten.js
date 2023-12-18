@@ -26,8 +26,8 @@ export default function WeekOne() {
         </div>
         <div className={styles.subcard1}>
           <p>For our week 10 machine building project, we created a sidewalk plotter. Our goal was to design a "light-painting" robot, a machine that could draw geometric shapes - specifically, a circle and a square - using an LED light. These designs would then be captured through long-exposure photography. Our robot was engineered to operate on a fixed XY axis with a predetermined width, incorporating motor position calibration and homing functionalities.</p>
-          <img style={{ width: '30%', height: '30%' }} src="/week10/Robot.png" alt="Website Image" />
-          <img style={{ width: '30%', height: '30%' }} src="/week10/light.jpg" alt="Website Image" />
+          <img style={{ width: '30%', height: '30%' }} src="/PS70/week10/Robot.png" alt="Website Image" />
+          <img style={{ width: '30%', height: '30%' }} src="/PS70/week10/light.jpg" alt="Website Image" />
         </div>
         <div className={styles.subcard2}>
           <p>The construction process of our robot was influenced by an example demonstrated in class. We used Fusion360 files to craft the side and motor backing pieces from acrylic, and hand-cut metal extrusion for structural support. The assembly phase was intricate, requiring precise attachment of wheels to the metal extrusion and the careful spacing of components to ensure smooth movement. Notably, the end-effector, the heart of our robot's artistic capabilities, was crafted from a laser-cut acrylic stand housing an LED light bulb, fixed to the moving plate.
